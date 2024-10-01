@@ -30,10 +30,10 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center; /*Me aliena el nombre del logo*/
+  align-items: center;
   text-decoration: none;
   color: rgb(79, 170, 255);
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
 }
 
@@ -120,12 +120,13 @@
 .seccion-2 {
   background-color: #6590d1;
   width: 100%;
+  position: relative;
   min-height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  padding: 5% 0;
+  padding: 100px 0;
   flex-wrap: wrap;
 }
 
@@ -149,6 +150,8 @@
 }
 .izq-titulo h2 {
   font-size: 28px;
+  text-transform: uppercase;
+  padding: 0 250px;
 }
 .izq-titulo h3 {
   font-size: 18px;
